@@ -20,8 +20,7 @@ namespace OrderManagement.API.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest request)
         {
-            // Usuário e senha fixos exigidos pelo teste prático [3]
-            if (request.Email == "wes@tech.com" && request.Password == "Senha@123")
+            if (request.Email == "dev@martech.com" && request.Password == "Senha@123")
             {
                 var token = GenerateJwtToken(request.Email);
                 return Ok(new { token });

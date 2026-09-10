@@ -370,3 +370,9 @@ FodyWeavers.xsd
 src/OrderManagement.API/OrderManagement.db-shm
 src/OrderManagement.API/OrderManagement.db-wal
 src/OrderManagement.API/OrderManagement.db
+/src/OrderManagement.API/OrderManagement.db
+*.db
+*.db-shm
+*.db-wal
+*.db-shm
+*.db-wal
