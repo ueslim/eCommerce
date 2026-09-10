@@ -376,3 +376,6 @@ src/OrderManagement.API/OrderManagement.db
 *.db-wal
 *.db-shm
 *.db-wal
+/src/OrderManagement.API/OrderManagement.db
+/src/OrderManagement.API/OrderManagement.db-shm
+/src/OrderManagement.API/OrderManagement.db-wal
